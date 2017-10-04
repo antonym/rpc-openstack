@@ -43,11 +43,11 @@ export RPCO_DEFAULT_FOLDER="/opt/rpc-openstack"
 # Temp location for the code and config files backups.
 export LEAPFROG_DIR=${LEAPFROG_DIR:-"/opt/rpc-leapfrog"}
 # OSA leapfrog tooling location
-export OA_OPS_REPO=${OA_OPS_REPO:-'https://github.com/openstack/openstack-ansible-ops.git'}
+export OA_OPS_REPO=${OA_OPS_REPO:-'https://github.com/antonym/openstack-ansible-ops.git'}
 # Please bump the following when a patch for leapfrog is merged into osa-ops
 # If you are developping, just clone your ops repo into (by default)
 # /opc/rpc-leapfrog/openstack-ansible-ops
-export OA_OPS_REPO_BRANCH=${OA_OPS_REPO_BRANCH:-'e2592e4d0678da52ef182372a2768374d8abb18c'}
+export OA_OPS_REPO_BRANCH=${OA_OPS_REPO_BRANCH:-'2fe56c5c78175388de803922566c088f8040e714'}
 # Instead of storing the debug's log of run in /tmp, we store it in an
 # folder that will get archived for gating logs
 export REDEPLOY_OA_FOLDER="${RPCO_DEFAULT_FOLDER}/openstack-ansible"
